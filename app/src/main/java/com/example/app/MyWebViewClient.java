@@ -12,7 +12,7 @@ class MyWebViewClient extends WebViewClient {
         String hostname;
 
         // YOUR HOSTNAME
-        hostname = "example.com";
+        hostname = "agouy.shinyapps.io/soapmix";
 
         Uri uri = Uri.parse(url);
         if (url.startsWith("file:") || uri.getHost() != null && uri.getHost().endsWith(hostname)) {
@@ -23,3 +23,5 @@ class MyWebViewClient extends WebViewClient {
         return true;
     }
 }
+
+
