@@ -5,10 +5,10 @@ account: agouy
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4479989
-bundleId: 4911043
+bundleId: 4911687
 url: https://agouy.shinyapps.io/soapmix/
-when: 1628677462.95559
-lastSyncTime: 1628677462.95559
+when: 1628690331.78178
+lastSyncTime: 1628690331.78178
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: build.gradle|dev/dev.txt|gradle/wrapper/gradle-wrapper.jar|gradle/wrapper/gradle-wrapper.properties|gradle.properties|gradlew|gradlew.bat|README.md|settings.gradle|app
