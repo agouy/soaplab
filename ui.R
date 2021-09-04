@@ -40,7 +40,7 @@ ui <- dashboardPage(
           box(width = 12,
             selectInput("oil_input", "Select oil / fat to add:", choices = master_df$name_fr),
             numericInput("weight_input", "Weight (g):", 100, 0, 100000),
-            actionButton("add_oil", "Add to the mixture!")4
+            actionButton("add_oil", "Add to the mixture!")
           ),
           box(width = 12,
             title = "Current mix",
